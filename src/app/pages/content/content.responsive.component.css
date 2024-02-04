@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .content__cover > img {
+        width: 300px;
+        min-width: 300px;
+    }
+
+    .content__title > h1 {
+        font-size: 20px;
+    }
+
+    .content__description{
+        margin: 15px 10px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content__cover > img {
+        width: 250px;
+        min-width: 250px;
+    }
+
+    .content__title > h1 {
+        font-size: 16px;
+    }
+}

@@ -6,7 +6,10 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  styleUrls: [
+    './big-card.component.css',
+    './big-card.responsive.component.css'
+  ]
 })
 export class BigCardComponent {
   @Input()

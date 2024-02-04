@@ -7,7 +7,10 @@ import { dataFake } from '../../data/dataFake';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './content.component.html',
-  styleUrl: './content.component.css'
+  styleUrls: [
+    './content.component.css',
+    './content.responsive.component.css'
+  ]
 })
 export class ContentComponent implements OnInit {
   photoCover: string = "";
