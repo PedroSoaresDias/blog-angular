@@ -6,11 +6,28 @@
 
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+            photoCover="https://miro.medium.com/v2/resize:fit:1200/1*S3fR5kjoxRH8nLWN_Mq17A.jpeg"
+            photoAltenative="Imagem comparativa do React.JS e Angular"
+            cardTitle="Tudo sobre o React.JS e Angular"
+            cardDescription="Conheça as tecnologias mais famosas no mundo do desenvolvimento web e conheça as suas características."
+        />
     </div>
     <div class="articles__outhers">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+            photoCover="https://res.cloudinary.com/snyk/image/upload/v1693940833/feature-node-deno-bun.jpg"
+            photoAltenative="Imagem comparativa do Node.JS, Deno e Bun."
+            cardTitle="Conheça o Node.JS, Deno e Bun."
+        />
+        <app-small-card 
+            photoCover="https://www.danielleskosky.com/wp-content/uploads/SQL%20vs%20NoSQL/sql-vs-nosql.png"
+            photoAltenative="Imagem comparativa do SQL e NoSQL."
+            cardTitle="Aprenda sobre SQL e NoSQL."
+        />
+        <app-small-card 
+            photoCover="https://strapi.frigade.com/uploads/rsc2_a84d8518fe.png"
+            photoAltenative="Imagem sobre o React Server Components."
+            cardTitle="Novo conceito do React Server Components"
+        />
     </div>
 </div>
